@@ -1,0 +1,268 @@
+/* Universal */
+
+    /* Typography */
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+    }
+
+    /* Colors */
+    
+    .colorRed {
+        background-color: #D03238;
+    }
+    
+    .colorCoolGray {
+        background-color: #6D7276;
+    }
+    
+    .colorLightGray {
+        background-color: #E1E1E1
+    }
+
+    /* Spacing */
+
+    .marginTop {
+        margin-top: 2em;
+    }
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+    [class*="mobile hidden"],
+    [class*="tablet only"]:not(.mobile),
+    [class*="computer only"]:not(.mobile),
+    [class*="large screen only"]:not(.mobile),
+    [class*="widescreen only"]:not(.mobile),
+    [class*="or lower hidden"] {
+      display: none !important;
+    }
+
+    .ui.massive.menu {
+        font-size: 1.685714rem;
+    }
+    
+    h2.portHeader {
+        margin: .5rem 0 0 0;
+    }
+    
+    i.fas {
+        display: none;
+    }
+    
+    p.portInfo {
+        margin-top: .5rem;
+    }
+    
+    .swiper-container {
+        width: auto;
+        height: auto;
+    }
+    
+    .clientLogo {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    
+    .swiper-slide h3 {
+        text-align: center;
+    }
+    
+    .ui.card {
+        margin: auto;
+        width: 80%;
+    }
+    
+    #profilePic {width: 85%;margin: 2rem auto 1rem;}
+    
+    .ui.divider {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .ui.segment.attached {
+        margin-top: 0;
+        border: 0;
+    }
+
+    .ui.tabular.menu {
+        flex-wrap: wrap;
+    }
+
+    .videoHolder video {
+        width: 97vw;
+    }
+
+  }
+  
+  /* Tablet / iPad Portrait */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    [class*="mobile only"]:not(.tablet),
+    [class*="tablet hidden"],
+    [class*="computer only"]:not(.tablet),
+    [class*="large screen only"]:not(.tablet),
+    [class*="widescreen only"]:not(.tablet),
+    [class*="or lower hidden"]:not(.mobile) {
+      display: none !important;
+    }
+
+    h2 {
+        font-size: 1.6rem;
+    }
+
+    .mainPanelLeft {
+        width: 40%;
+    }
+
+    #profilePic {
+        float: left;
+        width: 45%;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .ui.divider {
+        display: none;
+    }
+
+    .ui.container {
+        width: 95%;
+    }
+
+    .container.mainPanel {
+    margin-top: 2.5rem;
+    }
+
+    .swiper-container {
+        width: auto;
+        height: auto;
+    }
+    
+    .clientLogo {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    .mainPanelRight h2 {
+        margin-top: 0;
+    }
+
+    .portInfo {
+        font-size: 1.4rem;
+    }
+
+    .testimonials p {
+        font-size: 1.4rem;
+    }
+
+    body {
+        font-size: 1.4rem;
+    }
+
+    h2.portHeader {
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+  }
+  
+  /* Computer / Desktop / iPad Landscape */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    [class*="mobile only"]:not(.computer),
+    [class*="tablet only"]:not(.computer),
+    [class*="computer hidden"],
+    [class*="large screen only"]:not(.computer),
+    [class*="widescreen only"]:not(.computer),
+    [class*="or lower hidden"]:not(.tablet):not(.mobile) {
+      display: none !important;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .mainPanelLeft {
+        width: 40%;
+    }
+
+    #profilePic {
+        float: left;
+        width: 45%;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .ui.divider {
+        display: none;
+    }
+
+    .ui.container {
+        width: 95%;
+    }
+
+    .container.mainPanel {
+    margin-top: 2.5rem;
+    }
+
+    .swiper-container {
+        width: auto;
+        height: auto;
+    }
+    
+    .clientLogo {
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    .mainPanelRight h2 {
+        margin-top: 0;
+    }
+
+    .portInfo {
+        font-size: 1.4rem;
+    }
+
+    .testimonials p {
+        font-size: 1.4rem;
+    }
+
+    body {
+        font-size: 1.4rem;
+    }
+
+    h2.portHeader {
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+  }
+  
+  /* Large Monitor */
+  @media only screen and (min-width: 1200px) and (max-width: 1919px) {
+    [class*="mobile only"]:not([class*="large screen"]),
+    [class*="tablet only"]:not([class*="large screen"]),
+    [class*="computer only"]:not([class*="large screen"]),
+    [class*="large screen hidden"],
+    [class*="widescreen only"]:not([class*="large screen"]),
+    [class*="or lower hidden"]:not(.computer):not(.tablet):not(.mobile) {
+      display: none !important;
+    }
+
+    #profilePic {
+        width: 50%;
+    }
+  }
+  
+  /* Widescreen Monitor */
+  @media only screen and (min-width: 1920px) {
+    [class*="mobile only"]:not([class*="widescreen"]),
+    [class*="tablet only"]:not([class*="widescreen"]),
+    [class*="computer only"]:not([class*="widescreen"]),
+    [class*="large screen only"]:not([class*="widescreen"]),
+    [class*="widescreen hidden"],
+    [class*="widescreen or lower hidden"] {
+      display: none !important;
+    }
+  }
